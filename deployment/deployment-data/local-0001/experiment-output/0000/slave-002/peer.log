@@ -1,0 +1,472 @@
+{"level":"debug","Logging":"debug","time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","UseTLS":false,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","CACertFile":"tls-data/ca.pem","time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","KeyFile":"tls-data/auth.key","time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","CertFile":"tls-data/auth.pem","time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","PriorityConnections":2,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","BasicConnections":4,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","TestConnections":false,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","ExcessConnections":1,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","ConnectionTestMsgs":4,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","ConnectionTestPayload":131072,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","OutMessageBufsize":1024,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","OutMessageBufsize":1,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","ThroughputCap":131072000,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","StragglerTolerance":1000,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","BatchSizeIncrement":256,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","Orderer":"HotStuff","time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","Manager":"Mir","time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","Failures":0,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","CrashTiming":"EpochStart","time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","CheckpointInterval":256,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","WatermarkWindowSize":256,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","EpochLength":256,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","SegmentLength":64,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","WaitForCheckpoints":true,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","ClientWatermarkWindowSize":4194304,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","ClientRequestBacklogSize":4194304,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","RandomSeed":26338,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","NodeToLeaderRatio":1,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","LeaderPolicy":"Simple","time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","DefaultLeaderBan":2,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","NumBuckets":64,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","BatchSize":1000,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","DisabledViewChange":false,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","ViewChangeTimeout":60000,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","ClientTraceSampling":10,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","EventBufferSize":2097152,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","TraceSampling":1,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","ClientsPerProcess":1,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","RequestsPerClient":245760,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","ClientRunTime":30000,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","RequestRate":4096,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","HardRequestRateLimit":false,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","RequestPayloadSize":500,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","SignRequests":true,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","ClientPrivKeyFile":"tls-data/client-ecdsa-256.key","time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","ClientPubKeyFile":"tls-data/client-ecdsa-256.pem","time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","PrecomputeRequests":false,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","RequestHandlerThreads":32,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","RequestInputChannelBuffer":8192,"time":"2022-11-28T20:14:37+08:00","message":"Config"}
+{"level":"debug","BatchVerifier":"external","time":"2022-11-28T20:14:37+08:00","message":"Config"}
+20:14:37.289 DBG allNodeIDs is :[3 0 1 2]
+20:14:37.289 DBG SimulatedCrashes is :map[]
+20:14:37.289 INF Registered with discovery server. numPeers=4 ownID=0
+20:14:37.290 INF Profiling enabled.
+20:14:37.290 INF Setting up profiling.
+20:14:37.290 INF Started Profiler: CPU
+20:14:37.290 INF Started Profiler: BLOCK
+20:14:37.291 INF Started Profiler: MUTEX
+20:14:37.291 INF Profiler will stop on signal. exit=true
+20:14:37.296 INF Tracing will stop on signal. exit=false
+20:14:37.304 INF Started tracing. traceFile=experiment-output/0000/slave-002/peer.trc
+20:14:37.305 INF Listening for connections. port=10000 useTLS=false
+20:14:37.305 DBG Starting backlog.
+20:14:37.306 INF Connecting to peer. addr=127.0.0.1:10022 basicConns=4 priorityConns=2
+20:14:37.306 INF Connecting to peer. addr=127.0.0.1:10000 basicConns=4 priorityConns=2
+20:14:37.307 INF Connecting to peer. addr=127.0.0.1:10033 basicConns=4 priorityConns=2
+20:14:37.307 INF Connecting to peer. addr=127.0.0.1:10011 basicConns=4 priorityConns=2
+20:14:37.354 INF Incoming connection for protocol messages. addr=127.0.0.1:46732
+20:14:37.356 INF Incoming connection for protocol messages. addr=127.0.0.1:46742
+20:14:37.358 INF Incoming connection for protocol messages. addr=127.0.0.1:46708
+20:14:37.359 INF Incoming connection for protocol messages. addr=127.0.0.1:46694
+20:14:37.363 INF Incoming connection for protocol messages. addr=127.0.0.1:46710
+20:14:37.368 INF Incoming connection for protocol messages. addr=127.0.0.1:46706
+20:14:37.369 INF Incoming connection for protocol messages. addr=127.0.0.1:46758
+20:14:37.370 INF Incoming connection for protocol messages. addr=127.0.0.1:46728
+20:14:37.371 INF Incoming connection for protocol messages. addr=127.0.0.1:46798
+20:14:37.387 INF Incoming connection for protocol messages. addr=127.0.0.1:46772
+20:14:37.388 INF Incoming connection for protocol messages. addr=127.0.0.1:46722
+20:14:37.389 INF Incoming connection for protocol messages. addr=127.0.0.1:46794
+20:14:37.389 INF Incoming connection for protocol messages. addr=127.0.0.1:46700
+20:14:37.390 INF Incoming connection for protocol messages. addr=127.0.0.1:46778
+20:14:37.390 INF Incoming connection for protocol messages. addr=127.0.0.1:46760
+20:14:37.391 INF Incoming connection for protocol messages. addr=127.0.0.1:46806
+20:14:37.391 INF Incoming connection for protocol messages. addr=127.0.0.1:46756
+20:14:37.391 INF Incoming connection for protocol messages. addr=127.0.0.1:46766
+20:14:37.392 INF Incoming connection for protocol messages. addr=127.0.0.1:46800
+20:14:37.397 INF Incoming connection for protocol messages. addr=127.0.0.1:46830
+20:14:37.397 DBG Connected. peerID=3
+20:14:37.399 INF Incoming connection for protocol messages. addr=127.0.0.1:46842
+20:14:37.400 DBG Connected. peerID=0
+20:14:37.402 INF Incoming connection for protocol messages. addr=127.0.0.1:46686
+20:14:37.402 DBG Connected. peerID=1
+20:14:37.405 INF Incoming connection for protocol messages. addr=127.0.0.1:46746
+20:14:37.407 INF Incoming connection for protocol messages. addr=127.0.0.1:46820
+20:14:37.416 DBG Connected. peerID=2
+20:14:37.416 INF Connected to all peers.
+20:14:38.317 INF All peers finished connecting. Starting ISS.
+20:14:38.318 DBG Buckets for 0-th leader 0: [0 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60]
+20:14:38.319 DBG Buckets for 1-th leader 1: [1 5 9 13 17 21 25 29 33 37 41 45 49 53 57 61]
+20:14:38.319 DBG Buckets for 2-th leader 2: [2 6 10 14 18 22 26 30 34 38 42 46 50 54 58 62]
+20:14:38.319 DBG Buckets for 3-th leader 3: [3 7 11 15 19 23 27 31 35 39 43 47 51 55 59 63]
+20:14:38.319 INF HotStuff Orderer received new a segment: [0 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120 124 128 132 136 140 144 148 152 156 160 164 168 172 176 180 184 188 192 196 200 204 208 212 216 220 224 228 232 236 240 244 248 252] first leader=0 firstSN=0 lastSN=252 length=64 segId=0
+20:14:38.319 INF Starting HotStuff instance. first=0 segment=0
+20:14:38.320 DBG Adding new node. height=0 segment=0 sn=0
+20:14:38.320 INF hiList is : [0xc006259410]
+20:14:38.320 INF Starting HotStuff instance. first=0 last=252 segID=0
+20:14:38.320 DBG )))))))))))))))))
+20:14:38.320 DBG +++++++++++++++
+20:14:38.321 DBG HiList is : [0xc006259410]
+20:14:38.321 INF HotStuff Orderer received new a segment: [1 5 9 13 17 21 25 29 33 37 41 45 49 53 57 61 65 69 73 77 81 85 89 93 97 101 105 109 113 117 121 125 129 133 137 141 145 149 153 157 161 165 169 173 177 181 185 189 193 197 201 205 209 213 217 221 225 229 233 237 241 245 249 253] first leader=1 firstSN=1 lastSN=253 length=64 segId=1
+20:14:38.321 INF Starting HotStuff instance. first=1 segment=1
+20:14:38.321 DBG Subscribing to backlog. segID=0
+20:14:38.322 DBG Leading segment. segment=0
+20:14:38.322 INF Creating PROPOSAL. hightimestamp=0 proposed=false segment=0 senderID=0 sn=0 view=0
+20:14:38.323 DBG Adding new node. height=0 segment=1 sn=0
+20:14:38.323 INF hiList is : [0xc006259410 0xc0062599e0]
+20:14:38.323 INF Starting HotStuff instance. first=1 last=253 segID=1
+20:14:38.323 DBG )))))))))))))))))
+20:14:38.323 DBG +++++++++++++++
+20:14:38.323 DBG HiList is : [0xc006259410 0xc0062599e0]
+20:14:38.323 DBG +++++++++++++++
+20:14:38.323 DBG HiList is : [0xc006259410 0xc0062599e0]
+20:14:38.324 DBG Subscribing to backlog. segID=1
+20:14:38.324 DBG Starting serialized message processing. segment=0
+20:14:38.324 INF HotStuff Orderer received new a segment: [2 6 10 14 18 22 26 30 34 38 42 46 50 54 58 62 66 70 74 78 82 86 90 94 98 102 106 110 114 118 122 126 130 134 138 142 146 150 154 158 162 166 170 174 178 182 186 190 194 198 202 206 210 214 218 222 226 230 234 238 242 246 250 254] first leader=2 firstSN=2 lastSN=254 length=64 segId=2
+20:14:38.324 INF Starting HotStuff instance. first=2 segment=2
+20:14:38.324 DBG Starting serialized message processing. segment=1
+20:14:38.325 DBG Adding new node. height=0 segment=2 sn=0
+20:14:38.325 INF hiList is : [0xc006259410 0xc0062599e0 0xc0062e6240]
+20:14:38.325 INF Starting HotStuff instance. first=2 last=254 segID=2
+20:14:38.325 DBG )))))))))))))))))
+20:14:38.325 DBG +++++++++++++++
+20:14:38.325 DBG HiList is : [0xc006259410 0xc0062599e0 0xc0062e6240]
+20:14:38.325 DBG +++++++++++++++
+20:14:38.325 DBG HiList is : [0xc006259410 0xc0062599e0 0xc0062e6240]
+20:14:38.326 DBG +++++++++++++++
+20:14:38.326 DBG HiList is : [0xc006259410 0xc0062599e0 0xc0062e6240]
+20:14:38.326 DBG Subscribing to backlog. segID=2
+20:14:38.327 DBG Starting serialized message processing. segment=2
+20:14:38.327 INF HotStuff Orderer received new a segment: [3 7 11 15 19 23 27 31 35 39 43 47 51 55 59 63 67 71 75 79 83 87 91 95 99 103 107 111 115 119 123 127 131 135 139 143 147 151 155 159 163 167 171 175 179 183 187 191 195 199 203 207 211 215 219 223 227 231 235 239 243 247 251 255] first leader=3 firstSN=3 lastSN=255 length=64 segId=3
+20:14:38.327 INF Starting HotStuff instance. first=3 segment=3
+20:14:38.327 DBG Adding new node. height=0 segment=3 sn=0
+20:14:38.327 INF hiList is : [0xc006259410 0xc0062599e0 0xc0062e6240 0xc0062e6ab0]
+20:14:38.327 INF Starting HotStuff instance. first=3 last=255 segID=3
+20:14:38.328 DBG )))))))))))))))))
+20:14:38.328 DBG +++++++++++++++
+20:14:38.328 DBG HiList is : [0xc006259410 0xc0062599e0 0xc0062e6240 0xc0062e6ab0]
+20:14:38.328 DBG +++++++++++++++
+20:14:38.328 DBG HiList is : [0xc006259410 0xc0062599e0 0xc0062e6240 0xc0062e6ab0]
+20:14:38.328 DBG +++++++++++++++
+20:14:38.328 DBG HiList is : [0xc006259410 0xc0062599e0 0xc0062e6240 0xc0062e6ab0]
+20:14:38.328 DBG +++++++++++++++
+20:14:38.328 DBG HiList is : [0xc006259410 0xc0062599e0 0xc0062e6240 0xc0062e6ab0]
+20:14:38.329 DBG Subscribing to backlog. segID=3
+20:14:38.329 DBG Starting serialized message processing. segment=3
+20:14:39.324 DBG Batch cut. left=0 nBuckets=16 nReq=0 next=0
+20:14:39.324 INF New BATCH. hightimestamp=0 nReq=0 segment=0 senderID=0 sn=0 view=0
+20:14:39.325 DBG Height2tn content: map[1:1] segment=0
+20:14:39.325 DBG height2tn new content. Tn=1 height=1 segmentID=0
+20:14:39.325 DBG New node height=1 parent=0 segment=0 sn=0
+20:14:39.325 DBG hi.leaf update height new height=1 segment=0
+20:14:39.325 INF Sending PROPOSAL. height=1 proposed=false segment=0 senderId=0 sn=0 view=0
+20:14:39.325 INF Handling PROPOSAL. certificate=0 height=1 leader=0 segment=0 senderId=0 sn=0
+20:14:39.326 INF Follower's initial local state Nodes=1 highQC=0 leaf=1 locked=0 segment=0 vheigt=0
+20:14:39.326 DBG Creating new Batch. nReq=0
+20:14:39.326 DBG Height2tn content: map[1:1] segment=0
+20:14:39.326 DBG height2tn new content. Tn=1 height=1 segmentID=0
+20:14:39.326 DBG New node height=1 parent=0 segment=0 sn=0
+20:14:39.327 DBG Adding new node. height=1 segment=0 sn=0
+20:14:39.327 DBG Starting timer. height=1 segment=0 sn=0
+20:14:39.327 INF Follower updated log. certificate=0 height=1 segment=0 senderId=0 sn=0
+20:14:39.327 DBG Not enter the updateHighQC block hi.highQC.Height=0 qc.Height=0
+20:14:39.327 INF Follower updated highQC. certificate=0 height=1 segment=0 senderId=0 sn=0
+20:14:39.327 INF Follower processed backlog. certificate=0 height=1 segment=0 senderId=0 sn=0
+20:14:39.328 INF Creating VOTE. height=1 leader=0 segment=0 sn=0
+20:14:39.329 INF Decided get! decided.node.Certificate.Height=0
+20:14:39.329 DBG Update new high time stamp. New hightimestamp=1 Origin hightimestamp=0 segment=0
+20:14:39.330 DBG htnlog content: instance: 0; htn: 1
+20:14:39.330 DBG htnlog content: instance: 1; htn: 0
+20:14:39.330 DBG htnlog content: instance: 2; htn: 0
+20:14:39.330 DBG htnlog content: instance: 3; htn: 0
+20:14:39.330 INF Sending VOTE. Hightimestamp=1 height=1 leader=0 segment=0 sn=0
+20:14:39.334 INF Receive msg from peer ... SenderId=0 Sn=0 hightimestamp=0 type=ProtocolMessage_Multi
+20:14:39.334 DBG ==============
+20:14:39.334 DBG Received VOTE senderId=0 sn=0
+20:14:39.334 INF Handling VOTE. Origin hightimestamp=1 Receive hightimestamp=1 height=1 segment=0 senderId=0 sn=0
+20:14:39.334 DBG Do not need to update new high time stamp. New hightimestamp=1 Origin hightimestamp=1
+20:14:39.335 DBG htnlog content: instance: 0; htn: 1
+20:14:39.335 DBG htnlog content: instance: 1; htn: 0
+20:14:39.335 DBG htnlog content: instance: 2; htn: 0
+20:14:39.335 DBG htnlog content: instance: 3; htn: 0
+20:14:39.335 DBG vote from normal height 1 have been received, we are in height 1
+20:14:39.330 DBG EnqueueMsg send... Destination=0 SenderID=0 Sn=0 hightimestamp=1 type=ProtocolMessage_Vote
+20:14:39.341 DBG Received HotStuffProposal. height=1 nReq=0 senderId=2 sn=2 view=0
+20:14:39.341 DBG Received HotStuffProposal. height=1 nReq=0 senderId=1 sn=1 view=0
+20:14:39.341 INF Receive msg from peer ... SenderId=2 Sn=2 hightimestamp=1 type=ProtocolMessage_Proposal
+20:14:39.341 INF Receive msg from peer ... SenderId=1 Sn=1 hightimestamp=1 type=ProtocolMessage_Proposal
+20:14:39.341 DBG ==============
+20:14:39.341 DBG ==============
+20:14:39.341 DBG Received PROPOSAL senderId=2 sn=2
+20:14:39.341 DBG Received PROPOSAL senderId=1 sn=1
+20:14:39.341 INF Handling PROPOSAL. certificate=0 height=1 leader=2 segment=2 senderId=2 sn=2
+20:14:39.342 INF Handling PROPOSAL. certificate=0 height=1 leader=1 segment=1 senderId=1 sn=1
+20:14:39.342 INF Follower's initial local state Nodes=1 highQC=0 leaf=0 locked=0 segment=2 vheigt=0
+20:14:39.342 INF Follower's initial local state Nodes=1 highQC=0 leaf=0 locked=0 segment=1 vheigt=0
+20:14:39.342 DBG Creating new Batch. nReq=0
+20:14:39.342 DBG Creating new Batch. nReq=0
+20:14:39.342 DBG Height2tn content: map[1:1] segment=2
+20:14:39.342 DBG Height2tn content: map[1:1] segment=1
+20:14:39.343 DBG height2tn new content. Tn=1 height=1 segmentID=2
+20:14:39.343 DBG height2tn new content. Tn=1 height=1 segmentID=1
+20:14:39.343 DBG New node height=1 parent=0 segment=2 sn=2
+20:14:39.343 DBG New node height=1 parent=0 segment=1 sn=1
+20:14:39.343 DBG Adding new node. height=1 segment=2 sn=2
+20:14:39.343 DBG Adding new node. height=1 segment=1 sn=1
+20:14:39.343 DBG Starting timer. height=1 segment=2 sn=2
+20:14:39.343 DBG Starting timer. height=1 segment=1 sn=1
+20:14:39.343 INF Follower updated log. certificate=0 height=1 segment=2 senderId=2 sn=2
+20:14:39.343 INF Follower updated log. certificate=0 height=1 segment=1 senderId=1 sn=1
+20:14:39.343 DBG Not enter the updateHighQC block hi.highQC.Height=0 qc.Height=0
+20:14:39.343 DBG Not enter the updateHighQC block hi.highQC.Height=0 qc.Height=0
+20:14:39.343 INF Follower updated highQC. certificate=0 height=1 segment=2 senderId=2 sn=2
+20:14:39.344 INF Follower updated highQC. certificate=0 height=1 segment=1 senderId=1 sn=1
+20:14:39.344 INF Follower processed backlog. certificate=0 height=1 segment=2 senderId=2 sn=2
+20:14:39.344 INF Follower processed backlog. certificate=0 height=1 segment=1 senderId=1 sn=1
+20:14:39.344 INF Creating VOTE. height=1 leader=1 segment=1 sn=1
+20:14:39.344 INF Creating VOTE. height=1 leader=2 segment=2 sn=2
+20:14:39.345 INF Decided get! decided.node.Certificate.Height=0
+20:14:39.345 INF Decided get! decided.node.Certificate.Height=0
+20:14:39.345 DBG Update new high time stamp. New hightimestamp=1 Origin hightimestamp=0 segment=1
+20:14:39.345 DBG Update new high time stamp. New hightimestamp=1 Origin hightimestamp=0 segment=2
+20:14:39.345 DBG htnlog content: instance: 0; htn: 1
+20:14:39.345 DBG htnlog content: instance: 1; htn: 0
+==================
+WARNING: DATA RACE
+Write at 0x00c0001e75f0 by goroutine 245:
+  runtime.mapassign_fast64()
+      /home/niu/go/src/runtime/map_fast64.go:92 +0x0
+20:14:39.345 DBG htnlog content: instance: 2; htn: 1
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).sendVote()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:488 +0x731
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).handleProposal()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:447 +0x156a
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).processSerializedMessages()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:1076 +0x71e
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).processSerializedMessages·dwrap·4()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:68 +0x39
+
+Previous read at 0x00c0001e75f0 by goroutine 397:
+  runtime.mapaccess1_fast64()
+      /home/niu/go/src/runtime/map_fast64.go:12 +0x0
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).sendVote()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:483 +0x536
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).handleProposal()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:447 +0x156a
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).processSerializedMessages()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:1076 +0x71e
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).processSerializedMessages·dwrap·4()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:68 +0x39
+
+Goroutine 245 (running) created at:
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).processSerializedMessages()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:68 +0xb0
+  github.com/hyperledger-labs/mirbft/orderer.(*HotStuffOrderer).Start·dwrap·8()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstufforderer.go:147 +0x39
+
+Goroutine 397 (running) created at:
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).processSerializedMessages()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:68 +0xb0
+20:14:39.346 DBG htnlog content: instance: 3; htn: 0
+  github.com/hyperledger-labs/mirbft/orderer.(*HotStuffOrderer).Start·dwrap·8()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstufforderer.go:147 +0x39
+==================
+==================
+WARNING: DATA RACE
+Write at 0x00c0006ec89c by goroutine 245:
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).sendVote()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:488 +0x744
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).handleProposal()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:447 +0x156a
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).processSerializedMessages()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:1076 +0x71e
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).processSerializedMessages·dwrap·4()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:68 +0x39
+
+Previous read at 0x00c0006ec89c by goroutine 397:
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).sendVote()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:497 +0x91e
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).handleProposal()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:447 +0x156a
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).processSerializedMessages()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:1076 +0x71e
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).processSerializedMessages·dwrap·4()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:68 +0x39
+
+Goroutine 245 (running) created at:
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).processSerializedMessages()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:68 +0xb0
+  github.com/hyperledger-labs/mirbft/orderer.(*HotStuffOrderer).Start·dwrap·8()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstufforderer.go:147 +0x39
+
+Goroutine 397 (running) created at:
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).processSerializedMessages()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:68 +0xb0
+  github.com/hyperledger-labs/mirbft/orderer.(*HotStuffOrderer).Start·dwrap·8()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstufforderer.go:147 +0x39
+==================
+20:14:39.346 INF Sending VOTE. Hightimestamp=1 height=1 leader=2 segment=2 sn=2
+20:14:39.346 DBG htnlog content: instance: 0; htn: 1
+20:14:39.346 DBG htnlog content: instance: 1; htn: 1
+20:14:39.346 DBG EnqueueMsg send... Destination=2 SenderID=0 Sn=2 hightimestamp=1 type=ProtocolMessage_Vote
+20:14:39.346 DBG htnlog content: instance: 2; htn: 1
+20:14:39.346 DBG htnlog content: instance: 3; htn: 0
+20:14:39.346 INF Sending VOTE. Hightimestamp=1 height=1 leader=1 segment=1 sn=1
+20:14:39.346 DBG EnqueueMsg send... Destination=1 SenderID=0 Sn=1 hightimestamp=1 type=ProtocolMessage_Vote
+20:14:39.341 DBG hi.segment.Followers is: [0 1 2 3]
+20:14:39.347 DBG hi.segment.Leaders is: [0 1 2 3]
+20:14:39.347 DBG Sending HotStuff proposal. height=1 nReq=0 senderId=0 sn=0 view=0
+20:14:39.347 DBG Received HotStuffProposal. height=1 nReq=0 senderId=0 sn=0 view=0
+20:14:39.348 INF Receive msg from peer ... SenderId=0 Sn=0 hightimestamp=1 type=ProtocolMessage_Proposal
+20:14:39.347 DBG EnqueuePriorityMsg send... Destination=0 SenderID=0 Sn=0 hightimestamp=1 type=ProtocolMessage_Proposal
+20:14:39.348 DBG EnqueuePriorityMsg send... Destination=1 SenderID=0 Sn=0 hightimestamp=1 type=ProtocolMessage_Proposal
+20:14:39.348 DBG Sending HotStuff proposal. height=1 nReq=0 senderId=0 sn=0 view=0
+20:14:39.349 DBG EnqueuePriorityMsg send... Destination=2 SenderID=0 Sn=0 hightimestamp=1 type=ProtocolMessage_Proposal
+20:14:39.349 DBG EnqueuePriorityMsg send... Destination=3 SenderID=0 Sn=0 hightimestamp=1 type=ProtocolMessage_Proposal
+20:14:39.349 DBG Sending HotStuff proposal. height=1 nReq=0 senderId=0 sn=0 view=0
+20:14:39.349 DBG Sending HotStuff proposal. height=1 nReq=0 senderId=0 sn=0 view=0
+20:14:39.355 INF Receive msg from peer ... SenderId=1 Sn=0 hightimestamp=0 type=ProtocolMessage_Multi
+20:14:39.356 INF Receive msg from peer ... SenderId=2 Sn=0 hightimestamp=0 type=ProtocolMessage_Multi
+20:14:39.357 DBG Received HotStuffProposal. height=1 nReq=0 senderId=3 sn=3 view=0
+20:14:39.357 INF Receive msg from peer ... SenderId=3 Sn=3 hightimestamp=1 type=ProtocolMessage_Proposal
+20:14:39.357 DBG ==============
+20:14:39.357 DBG Received PROPOSAL senderId=3 sn=3
+20:14:39.357 INF Handling PROPOSAL. certificate=0 height=1 leader=3 segment=3 senderId=3 sn=3
+20:14:39.358 INF Follower's initial local state Nodes=1 highQC=0 leaf=0 locked=0 segment=3 vheigt=0
+20:14:39.358 DBG Creating new Batch. nReq=0
+20:14:39.358 DBG Height2tn content: map[1:1] segment=3
+20:14:39.358 DBG height2tn new content. Tn=1 height=1 segmentID=3
+20:14:39.358 DBG New node height=1 parent=0 segment=3 sn=3
+20:14:39.359 DBG Adding new node. height=1 segment=3 sn=3
+20:14:39.359 DBG Starting timer. height=1 segment=3 sn=3
+20:14:39.359 INF Follower updated log. certificate=0 height=1 segment=3 senderId=3 sn=3
+20:14:39.359 DBG Not enter the updateHighQC block hi.highQC.Height=0 qc.Height=0
+20:14:39.359 INF Follower updated highQC. certificate=0 height=1 segment=3 senderId=3 sn=3
+20:14:39.359 INF Follower processed backlog. certificate=0 height=1 segment=3 senderId=3 sn=3
+20:14:39.359 INF Creating VOTE. height=1 leader=3 segment=3 sn=3
+20:14:39.360 INF Decided get! decided.node.Certificate.Height=0
+20:14:39.360 DBG Update new high time stamp. New hightimestamp=1 Origin hightimestamp=0 segment=3
+20:14:39.361 DBG htnlog content: instance: 0; htn: 1
+20:14:39.361 DBG htnlog content: instance: 1; htn: 1
+20:14:39.361 DBG htnlog content: instance: 2; htn: 1
+20:14:39.361 DBG htnlog content: instance: 3; htn: 1
+20:14:39.361 INF Sending VOTE. Hightimestamp=1 height=1 leader=3 segment=3 sn=3
+20:14:39.361 DBG EnqueueMsg send... Destination=3 SenderID=0 Sn=3 hightimestamp=1 type=ProtocolMessage_Vote
+20:14:39.364 INF Receive msg from peer ... SenderId=3 Sn=0 hightimestamp=0 type=ProtocolMessage_Multi
+20:14:39.367 DBG ==============
+20:14:39.368 DBG Received PROPOSAL senderId=0 sn=0
+20:14:39.368 INF Handling PROPOSAL. certificate=0 height=1 leader=0 segment=0 senderId=0 sn=0
+20:14:39.368 INF Follower's initial local state Nodes=2 highQC=0 leaf=1 locked=0 segment=0 vheigt=1
+20:14:39.368 WRN Already voted for height 1 height=1 segment=0
+20:14:39.368 DBG ==============
+20:14:39.368 DBG Received VOTE senderId=1 sn=0
+20:14:39.368 INF Handling VOTE. Origin hightimestamp=1 Receive hightimestamp=1 height=1 segment=0 senderId=1 sn=0
+20:14:39.369 DBG Do not need to update new high time stamp. New hightimestamp=1 Origin hightimestamp=1
+20:14:39.369 DBG htnlog content: instance: 0; htn: 1
+20:14:39.369 DBG htnlog content: instance: 1; htn: 1
+20:14:39.369 DBG htnlog content: instance: 2; htn: 1
+20:14:39.369 DBG htnlog content: instance: 3; htn: 1
+20:14:39.369 DBG vote from normal height 1 have been received, we are in height 1
+20:14:39.399 DBG ==============
+20:14:39.400 DBG Received VOTE senderId=2 sn=0
+20:14:39.400 INF Handling VOTE. Origin hightimestamp=1 Receive hightimestamp=1 height=1 segment=0 senderId=2 sn=0
+20:14:39.400 DBG Do not need to update new high time stamp. New hightimestamp=1 Origin hightimestamp=1
+20:14:39.400 DBG htnlog content: instance: 0; htn: 1
+20:14:39.400 DBG htnlog content: instance: 1; htn: 1
+20:14:39.400 DBG htnlog content: instance: 2; htn: 1
+20:14:39.400 DBG htnlog content: instance: 3; htn: 1
+20:14:39.400 DBG vote from normal height 1 have been received, we are in height 1
+20:14:39.427 INF Assembling CERT. height=1 segment=0 senderId=2 sn=0
+20:14:39.521 INF Updating  state. height=1 segment=0 senderId=2 sn=0
+20:14:39.522 DBG hi.leaf update height new height=1 segment=0
+==================
+WARNING: DATA RACE
+Read at 0x00c006259418 by goroutine 393:
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).proposeSN()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:54 +0x5e
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).proposeSN()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:195 +0x2b
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).handleVote()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:656 +0x16ef
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).processSerializedMessages()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:1087 +0x56f
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).processSerializedMessages·dwrap·4()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:68 +0x39
+
+Previous write at 0x00c006259418 by goroutine 390:
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).proposeSN()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:56 +0x144
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).proposeSN()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:195 +0x2b
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).start()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:190 +0x18d
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).start()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:49 +0x44
+  github.com/hyperledger-labs/mirbft/orderer.(*HotStuffOrderer).Start·dwrap·7()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstufforderer.go:146 +0x39
+
+Goroutine 393 (running) created at:
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).processSerializedMessages()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:68 +0xb0
+  github.com/hyperledger-labs/mirbft/orderer.(*HotStuffOrderer).Start·dwrap·8()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstufforderer.go:147 +0x39
+
+Goroutine 390 (finished) created at:
+  github.com/hyperledger-labs/mirbft/orderer.(*HotStuffOrderer).Start()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstufforderer.go:146 +0x657
+  main.main·dwrap·5()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/cmd/orderingpeer/main.go:169 +0x59
+==================
+20:14:39.522 INF Creating PROPOSAL. hightimestamp=1 proposed=false segment=1 senderID=0 sn=4 view=0
+20:14:40.326 DBG Batch cut. left=0 nBuckets=16 nReq=0 next=0
+20:14:40.326 DBG Buckets for 0-th leader 0: [0 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60]
+20:14:40.431 INF Incoming connection for requests. addr=127.0.0.1:56766
+20:15:39.344 DBG ==============
+20:15:39.344 WRN Timeout segment=2 sn=2 view=0
+==================
+WARNING: DATA RACE
+Write at 0x00c0062c17ac by goroutine 397:
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).sendNewView()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:675 +0x71
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).processSerializedMessages()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:1071 +0xc19
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).processSerializedMessages·dwrap·4()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:68 +0x39
+
+Previous read at 0x00c0062c17ac by goroutine 396:
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance_real).start()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance_real.go:181 +0x6c
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).start()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:49 +0x44
+  github.com/hyperledger-labs/mirbft/orderer.(*HotStuffOrderer).Start·dwrap·7()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstufforderer.go:146 +0x39
+
+Goroutine 397 (running) created at:
+  github.com/hyperledger-labs/mirbft/orderer.(*hotStuffInstance).processSerializedMessages()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstuffinstance.go:68 +0xb0
+  github.com/hyperledger-labs/mirbft/orderer.(*HotStuffOrderer).Start·dwrap·8()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstufforderer.go:147 +0x39
+
+Goroutine 396 (finished) created at:
+  github.com/hyperledger-labs/mirbft/orderer.(*HotStuffOrderer).Start()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/orderer/hotstufforderer.go:146 +0x657
+  main.main·dwrap·5()
+      /opt/gopath/src/github.com/hyperledger-labs/mirbft/cmd/orderingpeer/main.go:169 +0x59
+==================
+20:15:39.344 INF Sending NEW VIEW. height=0 leader=3 segment=2 sn=0 view=1
+20:15:39.344 DBG EnqueueMsg send... Destination=3 SenderID=0 Sn=0 hightimestamp=0 type=ProtocolMessage_HotstuffNewView
+20:15:39.345 DBG ==============
+20:15:39.345 WRN Timeout segment=1 sn=1 view=0
+20:15:39.345 INF Sending NEW VIEW. height=0 leader=2 segment=1 sn=0 view=1
+20:15:39.345 DBG EnqueueMsg send... Destination=2 SenderID=0 Sn=0 hightimestamp=0 type=ProtocolMessage_HotstuffNewView
+20:15:39.359 DBG ==============
+20:15:39.359 WRN Timeout segment=3 sn=3 view=0
+20:15:39.359 INF Sending NEW VIEW. height=0 leader=0 segment=3 sn=0 view=1
+20:15:39.359 DBG EnqueueMsg send... Destination=0 SenderID=0 Sn=0 hightimestamp=0 type=ProtocolMessage_HotstuffNewView
+20:15:47.895 INF Connection terminated. error="rpc error: code = Canceled desc = context canceled" address=127.0.0.1:46794
+20:15:47.895 INF Connection terminated. error="rpc error: code = Canceled desc = context canceled" address=127.0.0.1:46686
+20:15:47.895 INF Connection terminated. error="rpc error: code = Canceled desc = context canceled" address=127.0.0.1:46772
+20:15:47.895 INF Connection terminated. error="rpc error: code = Canceled desc = context canceled" address=127.0.0.1:46778
+20:15:47.899 INF Connection terminated. error="rpc error: code = Canceled desc = context canceled" address=127.0.0.1:46694
+20:15:47.898 INF Connection terminated. error="rpc error: code = Canceled desc = context canceled" address=127.0.0.1:46700
